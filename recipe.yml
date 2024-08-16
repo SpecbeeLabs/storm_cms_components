@@ -1,0 +1,13 @@
+name: 'Storm CMS Components'
+description: 'Storm CMS Components wrapper'
+recipes:
+  - storm_cms_page_builder
+install:
+  - block_content
+  - views
+config:
+  import:
+    block_content:
+      - field.storage.block_content.body
+      - core.entity_view_mode.block_content.full
+      - views.view.block_content

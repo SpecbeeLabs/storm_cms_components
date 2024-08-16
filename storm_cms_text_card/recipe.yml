@@ -1,0 +1,4 @@
+name: 'Storm CMS Basic Block'
+description: 'Storm CMS Components wrapper'
+recipes:
+ - storm_cms_components

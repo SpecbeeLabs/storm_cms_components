@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: text_card
+block_id: 'inline_block:text_card'
+category: card
+label: 'Text Card'
+image_path: 'https://cdn.vuetifyjs.com/docs/images/components-temp/v-card/v-card-anatomy.png'
+image_alt: Test
+weight: -100

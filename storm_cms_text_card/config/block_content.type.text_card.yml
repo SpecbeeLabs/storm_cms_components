@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: text_card
+label: 'Text Card'
+revision: false
+description: 'A basic <em>Text card</em> block type that allows adding Text and Title with WYSIWYG editor.'
