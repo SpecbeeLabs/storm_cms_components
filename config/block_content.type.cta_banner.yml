@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: cta_banner
+label: 'CTA Banner'
+revision: false
+description: 'A Banner with Title text and a CTA Link'

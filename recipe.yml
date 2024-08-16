@@ -1,10 +1,9 @@
 name: 'Storm CMS Components'
 description: 'Storm CMS Components wrapper'
-recipes:
-  - storm_cms_page_builder
 install:
   - block_content
   - views
+  - layout_builder_browser
 config:
   import:
     block_content:

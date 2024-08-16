@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: cta_banner
+block_id: 'inline_block:cta_banner'
+category: banner
+label: 'CTA Banner'
+image_path: ''
+image_alt: ''
+weight: -100

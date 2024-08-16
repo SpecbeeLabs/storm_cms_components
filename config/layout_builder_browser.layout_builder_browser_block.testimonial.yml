@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: testimonial
+block_id: 'inline_block:testimonial'
+category: content
+label: Testimonial
+image_path: ''
+image_alt: ''
+weight: -100
