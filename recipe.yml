@@ -11,3 +11,5 @@ config:
       - field.storage.block_content.body
       - core.entity_view_mode.block_content.full
       - views.view.block_content
+    layout_builder_browser: "*"
+    paragraphs: "*"
