@@ -2,15 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.cta_banner
+    - block_content.type.promo_card
     - field.storage.block_content.field_variant
   module:
     - options
-id: block_content.cta_banner.field_variant
+id: block_content.promo_card.field_variant
 field_name: field_variant
 entity_type: block_content
-bundle: cta_banner
-label: 'Button Alignment'
+bundle: promo_card
+label: 'Image Alignment'
 description: ''
 required: false
 translatable: false

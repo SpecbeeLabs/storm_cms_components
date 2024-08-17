@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: promo_card
+label: 'Promo Card'
+revision: false
+description: 'A Card with image alignment configuration'

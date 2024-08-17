@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: hero_banner
+block_id: 'inline_block:hero_banner'
+category: banner
+label: 'Hero Banner'
+image_path: ''
+image_alt: ''
+weight: -100

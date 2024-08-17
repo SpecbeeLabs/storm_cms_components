@@ -4,6 +4,7 @@ install:
   - block_content
   - views
   - layout_builder_browser
+  - paragraphs
 config:
   import:
     block_content:

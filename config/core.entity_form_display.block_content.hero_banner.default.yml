@@ -2,17 +2,19 @@ langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.text_card
-    - field.field.block_content.text_card.body
-    - field.field.block_content.text_card.field_links
-    - field.field.block_content.text_card.field_subtitle
+    - block_content.type.hero_banner
+    - field.field.block_content.hero_banner.body
+    - field.field.block_content.hero_banner.field_links
+    - field.field.block_content.hero_banner.field_media
+    - field.field.block_content.hero_banner.field_subtitle
   module:
     - link_attributes
+    - media_library
     - sam
     - text
-id: block_content.text_card.default
+id: block_content.hero_banner.default
 targetEntityType: block_content
-bundle: text_card
+bundle: hero_banner
 mode: default
 content:
   body:
@@ -27,7 +29,7 @@ content:
     third_party_settings: {  }
   field_links:
     type: link_attributes
-    weight: 3
+    weight: 4
     region: content
     settings:
       placeholder_url: ''
@@ -45,6 +47,13 @@ content:
     third_party_settings:
       sam:
         skip_simplification: false
+  field_media:
+    type: media_library_widget
+    weight: 3
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
   field_subtitle:
     type: string_textfield
     weight: 1

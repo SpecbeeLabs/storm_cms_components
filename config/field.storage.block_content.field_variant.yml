@@ -11,11 +11,11 @@ type: list_string
 settings:
   allowed_values:
     -
-      value: cta_left
-      label: 'CTA Left'
+      value: left
+      label: Left
     -
-      value: cta_right
-      label: 'CTA Right'
+      value: right
+      label: Right
   allowed_values_function: ''
 module: options
 locked: false

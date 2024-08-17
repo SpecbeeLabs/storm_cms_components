@@ -3,15 +3,16 @@ status: true
 dependencies:
   module:
     - block_content
-    - link
-id: block_content.field_links
-field_name: field_links
+    - webform
+id: block_content.field_webform
+field_name: field_webform
 entity_type: block_content
-type: link
-settings: {  }
-module: link
+type: webform
+settings:
+  target_type: webform
+module: webform
 locked: false
-cardinality: 2
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

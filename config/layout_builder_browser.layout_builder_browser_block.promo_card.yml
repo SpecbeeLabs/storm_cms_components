@@ -1,10 +1,10 @@
 langcode: en
 status: true
 dependencies: {  }
-id: text_card
-block_id: 'inline_block:text_card'
+id: promo_card
+block_id: 'inline_block:promo_card'
 category: card
-label: 'Text Card'
+label: 'Promo Card'
 image_path: ''
-image_alt: Test
+image_alt: ''
 weight: -100

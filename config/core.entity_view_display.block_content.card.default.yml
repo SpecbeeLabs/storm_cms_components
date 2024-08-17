@@ -2,16 +2,17 @@ langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.text_card
-    - field.field.block_content.text_card.body
-    - field.field.block_content.text_card.field_links
-    - field.field.block_content.text_card.field_subtitle
+    - block_content.type.card
+    - field.field.block_content.card.body
+    - field.field.block_content.card.field_links
+    - field.field.block_content.card.field_media
+    - field.field.block_content.card.field_subtitle
   module:
     - link
     - text
-id: block_content.text_card.default
+id: block_content.card.default
 targetEntityType: block_content
-bundle: text_card
+bundle: card
 mode: default
 content:
   body:
@@ -19,7 +20,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    weight: 0
     region: content
   field_links:
     type: link
@@ -31,7 +32,16 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    weight: 2
+    weight: 1
+    region: content
+  field_media:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 0
     region: content
   field_subtitle:
     type: string

@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.text_card
+    - block_content.type.webform
     - field.storage.block_content.field_links
   module:
     - link
-id: block_content.text_card.field_links
+id: block_content.webform.field_links
 field_name: field_links
 entity_type: block_content
-bundle: text_card
+bundle: webform
 label: Link(s)
 description: ''
 required: false
