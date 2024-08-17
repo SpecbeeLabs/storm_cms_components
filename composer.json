@@ -11,6 +11,8 @@
     "require": {
         "specbee/storm_cms_page_builder": "*",
         "drupal/paragraphs": "^1.18",
-        "drupal/iframe": "^2.24"
+        "drupal/iframe": "^2.24",
+        "drupal/viewsreference": "^2.0@beta",
+        "drupal/material_icons": "^2.0"
     }
 }

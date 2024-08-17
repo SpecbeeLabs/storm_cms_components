@@ -5,11 +5,14 @@ install:
   - views
   - iframe
   - layout_builder_browser
+  - material_icons
   - paragraphs
+  - viewsreference
 config:
   import:
     block_content:
       - field.storage.block_content.body
       - core.entity_view_mode.block_content.full
       - views.view.block_content
+    material_icons: "*"
     paragraphs: "*"
