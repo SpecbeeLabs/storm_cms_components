@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: views
+label: Views
+revision: false
+description: 'Embed a content listing view as a reference.'

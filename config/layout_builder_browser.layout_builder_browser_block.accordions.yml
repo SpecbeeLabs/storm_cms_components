@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: accordions
+block_id: 'inline_block:accordions'
+category: content
+label: Accordions
+image_path: ''
+image_alt: ''
+weight: -100

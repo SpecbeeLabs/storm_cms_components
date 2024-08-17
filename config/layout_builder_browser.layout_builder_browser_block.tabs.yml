@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tabs
+block_id: 'inline_block:tabs'
+category: content
+label: Tabs
+image_path: ''
+image_alt: ''
+weight: -100

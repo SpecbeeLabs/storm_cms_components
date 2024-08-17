@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: feature_card
+block_id: 'inline_block:feature_card'
+category: card
+label: 'Feature Card'
+image_path: ''
+image_alt: ''
+weight: -7

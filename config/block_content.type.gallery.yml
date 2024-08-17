@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: gallery
+label: Gallery
+revision: false
+description: 'Use <em>Gallery</em> to display a group of images in a multi-column layout and show in a popup.'

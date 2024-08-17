@@ -1,0 +1,48 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.feature_card
+    - field.storage.block_content.field_cards
+    - paragraphs.paragraphs_type.feature
+  module:
+    - entity_reference_revisions
+id: block_content.feature_card.field_cards
+field_name: field_cards
+entity_type: block_content
+bundle: feature_card
+label: Card(s)
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      feature: feature
+    negate: 0
+    target_bundles_drag_drop:
+      accordion:
+        weight: 9
+        enabled: false
+      feature:
+        weight: 8
+        enabled: true
+      logo:
+        weight: 10
+        enabled: false
+      quick_link:
+        weight: 11
+        enabled: false
+      slide:
+        weight: 12
+        enabled: false
+      stat:
+        weight: 13
+        enabled: false
+      tab:
+        weight: 14
+        enabled: false
+field_type: entity_reference_revisions

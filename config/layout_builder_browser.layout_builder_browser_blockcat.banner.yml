@@ -1,9 +1,9 @@
 langcode: en
 status: true
-dependencies: {}
+dependencies: {  }
 id: banner
 label: Banner
-weight: null
+weight: -10
 opened: true
-image_path: ""
-image_alt: ""
+image_path: ''
+image_alt: ''

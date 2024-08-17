@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: quick_links
+label: 'Quick Links'
+revision: false
+description: "Add a <em>Quicklinks</em> section featuring links to frequently visited pages.\r\n\r\n"

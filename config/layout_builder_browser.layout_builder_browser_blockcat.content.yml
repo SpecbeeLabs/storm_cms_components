@@ -1,9 +1,9 @@
 langcode: en
 status: true
-dependencies: {}
+dependencies: {  }
 id: content
 label: Content
-weight: null
+weight: -8
 opened: true
-image_path: ""
-image_alt: ""
+image_path: ''
+image_alt: ''

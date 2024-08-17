@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.quick_links
+    - field.storage.block_content.field_quick_links
+    - paragraphs.paragraphs_type.quick_link
+  module:
+    - entity_reference_revisions
+id: block_content.quick_links.field_quick_links
+field_name: field_quick_links
+entity_type: block_content
+bundle: quick_links
+label: Links
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      quick_link: quick_link
+    negate: 0
+    target_bundles_drag_drop:
+      quick_link:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

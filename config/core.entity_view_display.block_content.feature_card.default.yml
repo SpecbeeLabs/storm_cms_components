@@ -1,0 +1,55 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.feature_card
+    - field.field.block_content.feature_card.body
+    - field.field.block_content.feature_card.field_cards
+    - field.field.block_content.feature_card.field_links
+    - field.field.block_content.feature_card.field_subtitle
+  module:
+    - entity_reference_revisions
+    - link
+    - text
+id: block_content.feature_card.default
+targetEntityType: block_content
+bundle: feature_card
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_cards:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_links:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_subtitle:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

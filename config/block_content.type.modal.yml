@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: modal
+label: Modal
+revision: false
+description: 'Display a piece of content in a Modal popup.'

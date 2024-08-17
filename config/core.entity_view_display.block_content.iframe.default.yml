@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.iframe
+    - field.field.block_content.iframe.field_iframe
+  module:
+    - iframe
+id: block_content.iframe.default
+targetEntityType: block_content
+bundle: iframe
+mode: default
+content:
+  field_iframe:
+    type: iframe_default
+    label: hidden
+    settings:
+      url: ''
+      title: ''
+      headerlevel: '3'
+      class: ''
+      frameborder: '0'
+      scrolling: ''
+      transparency: '0'
+      allowfullscreen: '0'
+      tokensupport: '0'
+      width: ''
+      height: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

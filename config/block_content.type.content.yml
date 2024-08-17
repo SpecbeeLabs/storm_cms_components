@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: content
+label: Content
+revision: false
+description: 'Embed a content display as a reference.'

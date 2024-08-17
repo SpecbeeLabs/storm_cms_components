@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: stats
+label: Stats
+revision: false
+description: 'Add Stats components to include data insights, such as analytics, metrics,  etc'

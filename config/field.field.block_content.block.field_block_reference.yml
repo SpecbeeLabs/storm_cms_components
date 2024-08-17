@@ -1,0 +1,40 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block
+    - block_content.type.card
+    - block_content.type.cta_banner
+    - block_content.type.location
+    - block_content.type.logo_cloud
+    - block_content.type.promo_card
+    - block_content.type.quick_links
+    - block_content.type.text_card
+    - field.storage.block_content.field_block_reference
+id: block_content.block.field_block_reference
+field_name: field_block_reference
+entity_type: block_content
+bundle: block
+label: 'Block Reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles:
+      cta_banner: cta_banner
+      card: card
+      location: location
+      logo_cloud: logo_cloud
+      promo_card: promo_card
+      quick_links: quick_links
+      text_card: text_card
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: cta_banner
+field_type: entity_reference

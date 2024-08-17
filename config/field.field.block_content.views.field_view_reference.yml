@@ -1,0 +1,34 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.views
+    - field.storage.block_content.field_view_reference
+  module:
+    - viewsreference
+id: block_content.views.field_view_reference
+field_name: field_view_reference
+entity_type: block_content
+bundle: views
+label: 'View Reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+  plugin_types:
+    block: block
+  preselect_views: {  }
+  enabled_settings:
+    header: header
+    offset: offset
+    pager: pager
+    argument: argument
+    title: title
+    limit: limit
+field_type: viewsreference

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.gallery
+    - field.storage.block_content.field_no_of_cols
+id: block_content.gallery.field_no_of_cols
+field_name: field_no_of_cols
+entity_type: block_content
+bundle: gallery
+label: 'Number of Columns'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 2
+  max: 6
+  prefix: ''
+  suffix: ''
+field_type: integer

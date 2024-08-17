@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: iframe
+label: iFrame
+revision: false
+description: 'Embed an iFrame component with attribute control.'

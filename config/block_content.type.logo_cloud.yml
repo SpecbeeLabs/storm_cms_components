@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: logo_cloud
+label: 'Logo Cloud'
+revision: false
+description: 'Use <em>Logo Cloud</em> to highlight prominent customers and partners'

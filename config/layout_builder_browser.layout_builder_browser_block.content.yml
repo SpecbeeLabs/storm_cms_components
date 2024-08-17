@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: content
+block_id: 'inline_block:content'
+category: reference
+label: Content
+image_path: ''
+image_alt: ''
+weight: -10

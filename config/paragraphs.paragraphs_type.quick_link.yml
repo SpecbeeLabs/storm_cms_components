@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: quick_link
+label: 'Quick Link'
+icon_uuid: null
+icon_default: null
+description: 'Add a Quick link with description & other information if needed.'
+behavior_plugins: {  }

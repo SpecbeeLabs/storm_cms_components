@@ -1,0 +1,45 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.accordions
+    - field.storage.block_content.field_panels
+    - paragraphs.paragraphs_type.accordion
+  module:
+    - entity_reference_revisions
+id: block_content.accordions.field_panels
+field_name: field_panels
+entity_type: block_content
+bundle: accordions
+label: Panel(s)
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      accordion: accordion
+    negate: 0
+    target_bundles_drag_drop:
+      accordion:
+        weight: 7
+        enabled: true
+      logo:
+        weight: 8
+        enabled: false
+      quick_link:
+        weight: 9
+        enabled: false
+      slide:
+        weight: 10
+        enabled: false
+      stat:
+        weight: 11
+        enabled: false
+      tab:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

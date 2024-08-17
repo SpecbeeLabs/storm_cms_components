@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: slideshow
+block_id: 'inline_block:slideshow'
+category: content
+label: Slideshow
+image_path: ''
+image_alt: ''
+weight: -100

@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: location
+block_id: 'inline_block:location'
+category: others
+label: Location
+image_path: ''
+image_alt: ''
+weight: -10

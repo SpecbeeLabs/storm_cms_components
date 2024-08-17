@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: block
+label: Block
+revision: false
+description: 'Add a Block reference to be reused as a component.'

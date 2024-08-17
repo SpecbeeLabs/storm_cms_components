@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: gallery
+block_id: 'inline_block:gallery'
+category: content
+label: Gallery
+image_path: ''
+image_alt: ''
+weight: -100

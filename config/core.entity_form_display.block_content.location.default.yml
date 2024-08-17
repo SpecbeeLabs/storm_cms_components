@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.location
+    - field.field.block_content.location.field_address
+  module:
+    - address
+id: block_content.location.default
+targetEntityType: block_content
+bundle: location
+mode: default
+content:
+  field_address:
+    type: address_default
+    weight: 26
+    region: content
+    settings:
+      wrapper_type: fieldset
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

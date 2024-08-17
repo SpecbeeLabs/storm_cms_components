@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: location
+label: Location
+revision: false
+description: 'Display an address in a Map view with address information'

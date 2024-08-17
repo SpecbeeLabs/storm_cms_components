@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: views
+block_id: 'inline_block:views'
+category: reference
+label: Views
+image_path: ''
+image_alt: ''
+weight: -9

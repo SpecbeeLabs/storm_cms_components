@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: accordions
+label: Accordions
+revision: false
+description: 'Add a set of accordion items to display in a collapsable format.'
