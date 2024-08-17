@@ -10,6 +10,7 @@
     ],
     "require": {
         "specbee/storm_cms_page_builder": "*",
-        "drupal/paragraphs": "^1.18"
+        "drupal/paragraphs": "^1.18",
+        "drupal/iframe": "^2.24"
     }
 }

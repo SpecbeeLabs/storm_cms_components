@@ -3,6 +3,7 @@ description: 'Storm CMS Components wrapper'
 install:
   - block_content
   - views
+  - iframe
   - layout_builder_browser
   - paragraphs
 config:
