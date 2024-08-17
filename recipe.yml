@@ -3,6 +3,7 @@ description: 'Storm CMS Components wrapper'
 install:
   - block_content
   - views
+  - entity_reference_display
   - iframe
   - layout_builder_browser
   - material_icons
